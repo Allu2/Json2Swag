@@ -41,9 +41,7 @@ def magic(jsoni, ident):
 
 # Insert JSON here and run
 sample_json = '''
-{
-
-}
+{}
             '''
 
-magic(json.loads(sample_json), 2)
+magic(json.loads(sample_json), 3)
